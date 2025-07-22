@@ -47,11 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+
+  I'm a Computer Science student pursuing a dual degree — B.Tech in CSE from GNDU Amritsar (offline) and B.Sc. in Computer Science from BITS Pilani (online).
+I'm passionate about full-stack web development, data analytics, and machine learning. I enjoy experimenting with new technologies and building hands-on projects that strengthen my understanding of real-world applications.
+I'm a quick learner, enthusiastic about tackling challenges, and currently looking for internship opportunities to apply my skills in practical settings and grow as a developer. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

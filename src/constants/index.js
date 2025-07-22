@@ -15,14 +15,20 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  sabudh,
+  ingrade,
+  edunet,
+  digitmg,
+  mysql,
+  powerbi,
   threejs,
+  microsoft,
+  qrgenerator,
+  spotify,
+  shoppingtrends,
+  nqueen,
+  snakegame,
+  simongame,
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +48,25 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Data Analytics & ML Enthusiast",
+    icon: figma,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Frontend Developer (React.js)",
+    icon: reactjs,
   },
+  {
+    title: "AI Learner & Researcher",
+    icon: creator,
+  }
 ];
 
 const technologies = [
@@ -73,16 +83,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -105,161 +107,158 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  { name: "MySQL",
+    icon: mysql,
+  }, 
+  { name: "Power BI",
+     icon: powerbi, 
+  },
+  { name: "Python",
+     icon: redux 
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "AI Transformative Learning Intern",
+    company_name: "TeckSaksham (SAP + Microsoft)",
+    icon: microsoft,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained hands-on experience in Artificial Intelligence tools and practices.",
+      "Contributed to AI-based learning materials and research projects.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Data Analytics Intern",
+    company_name: "360digitMG",
+    icon: digitmg,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Performed data collection and exploratory data analysis (EDA).",
+      "Built predictive models using Python and scikit-learn.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Cybersecurity Intern",
+    company_name: "IBM SkillsBuild(edunet foundation)",
+    icon: edunet,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned vulnerability scanning and encryption techniques.",
+      "Gained hands-on understanding of incident response protocols.",
+    ],
+  },
+  {
+    title: "Data Science Intern",
+    company_name: "Ingrade",
+    icon: ingrade,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Mar 2023",
+    points: [
+      "Worked on analytics projects involving data cleaning and visualization.",
+      "Developed and trained machine learning models for real-world data.",
+    ],
+  },
+  {
+    title: "Data Science Intern (Ongoing)",
+    company_name: "Sabudh Foundation",
+    icon: sabudh,
+    iconBg: "#E6DEDD",
+    date: "June 2024 - Present",
+    points: [
+      "Currently working on social impact-based data science projects.",
+      "Contributing to analytics-driven decision making.",
     ],
   },
 ];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+//   {
+//   name: "Full-stack trading platform",
+//   description:
+//     "A full-stack trading platform simulation inspired by Zerodha, featuring real-time user registration, portfolio tracking, and backend trade logic using MERN stack. Fully deployed and production-ready.",
+//   tags: [
+//     { name: "react", color: "blue-text-gradient" },
+//     { name: "nodejs", color: "green-text-gradient" },
+//     { name: "mongodb", color: "pink-text-gradient" },
+//     { name: "express", color: "orange-text-gradient" },
+//   ],
+//   image: "", 
+//   source_code_link: "https://github.com/yourusername/zerodha-clone",
+// },
+{
+  name: "N-Queens Visualizer",
+  description: "An interactive visualization of the N-Queens problem using HTML, CSS, and JavaScript. Helps in understanding backtracking algorithms through visual feedback.",
+  tags: [
+    { name: "html", color: "blue-text-gradient" },
+    { name: "css", color: "green-text-gradient" },
+    { name: "javascript", color: "yellow-text-gradient" },
+  ],
+  image: nqueen,
+  source_code_link: "https://github.com/Manviya-Sahni/N_Queens_visualiser", 
+},
+{
+    name: "Shopping Trends Analysis",
+    description: "Performed data visualization and trend analysis on customer shopping data using Python, Power BI, and Excel.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "powerbi", color: "blue-text-gradient" },
+      { name: "excel", color: "green-text-gradient" },
+      { name: "python", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: shoppingtrends, 
+    source_code_link: "https://github.com/Manviya-Sahni/Identifying-shopping-trends-using-data-analytics.git",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Spotify Clone",
+    description: "A frontend clone of Spotify built using HTML, CSS, Bootstrap, and Tailwind CSS to enhance UI/UX design skills.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image:spotify, 
+    source_code_link: "https://github.com/Manviya-Sahni/Spotify_clone.git",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Simon Game",
+description: "A memory-based game built with HTML, CSS, and JavaScript. Users repeat an increasingly long sequence of colors and sounds.",
+tags: [
+  { name: "javascript", color: "blue-text-gradient" },
+  { name: "html", color: "green-text-gradient" },
+  { name: "css", color: "pink-text-gradient" },
+],
+image: simongame,
+source_code_link: "https://github.com/Manviya-Sahni/Simon_Game.git",
+  },
+  {
+    name: "Snake Game",
+description: "Classic snake game built using HTML, CSS, and JavaScript. The snake grows as it eats food and the game ends on collision.",
+tags: [
+  { name: "javascript", color: "blue-text-gradient" },
+  { name: "html", color: "green-text-gradient" },
+  { name: "css", color: "pink-text-gradient" },
+],
+image: snakegame,
+source_code_link: "https://github.com/Manviya-Sahni/Snake_Game.git",
+  },
+  {
+    name: "QR Code Generator",
+    description: "Simple app that generates QR codes for user input text or URLs using JavaScript.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "html", color: "green-text-gradient" },
+      { name: "qr", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image:qrgenerator,
+    source_code_link: "https://github.com/Manviya-Sahni/Qr_code_generator.git",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+export { services, technologies, experiences, projects };

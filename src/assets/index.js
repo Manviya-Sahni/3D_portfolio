@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import MEcrop from "./MEcrop.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -21,17 +21,24 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import sabudh from "./company/sabudh.jpg";
+import digitmg from "./company/digitmg.png";
+import ingrade from "./company/ingrade.jpg";
+import edunet from "./company/edunet.png";
+import microsoft from "./company/microsoft.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import mysql from "./mysql.png";
+import powerbi from "./powerbi.svg";
+
+import qrgenerator from "./qrgenerator.png";
+import spotify from "./spotify.png";
+import shoppingtrends from "./shoppingtrends.png";
+import nqueen from "./nqueen.png";
+import snakegame from "./snakegame.png";
+import simongame from "./simongame.png";
 
 export {
-  logo,
+  MEcrop,
   backend,
   creator,
   mobile,
@@ -52,11 +59,17 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  sabudh,
+  digitmg,
+  ingrade,
+  edunet,
+  mysql,
+  powerbi,
+  microsoft,
+  qrgenerator,
+  spotify,
+  shoppingtrends,
+  nqueen,
+  snakegame,
+  simongame,
 };
