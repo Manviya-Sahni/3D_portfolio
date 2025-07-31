@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-
+import SocialFloatingBar from "./components/SocialFloatingBar";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
 const App = () => {
@@ -18,6 +18,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <SocialFloatingBar />
       </div>
     </BrowserRouter>
   );
